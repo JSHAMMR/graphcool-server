@@ -3,7 +3,10 @@
 
 type User @model {
   id: ID! @isUnique
-  name: String
+  firstName: String
+  lastName: String
+  email: String
+  phone: String
   dateOfBirth: DateTime
 
   # Uncomment below - you can declare relations between models like this
