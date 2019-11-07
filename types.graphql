@@ -3,6 +3,7 @@
 
 type User @model {
   id: ID! @isUnique
+  userId: String
   firstName: String
   lastName: String
   email: String
